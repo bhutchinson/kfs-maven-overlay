@@ -35,4 +35,6 @@
         </property>
     </bean>
 
+    <bean id="accountService"  parent="accountService-parentBean" class="co.kuali.kfs.coa.service.impl.AccountServiceImpl" />
+
 </beans>
