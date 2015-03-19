@@ -83,12 +83,12 @@
 
   <dependencies>
 
-      <!--
     <dependency>
       <groupId>org.kuali.kfs</groupId>
       <artifactId>kfs</artifactId>
       <version>${kfs.version}</version>
       <type>jar</type>
+      <scope>provided</scope>
     </dependency>
 
     <dependency>
@@ -98,7 +98,6 @@
       <type>test-jar</type>
       <scope>test</scope>
     </dependency>
--->
 
     <dependency>
       <groupId>org.kuali.kfs</groupId>
